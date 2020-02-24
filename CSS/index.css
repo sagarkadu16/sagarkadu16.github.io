@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.box{
+    color: #f49f1c;
+    background-color: rgb(5, 17, 80);
+    margin: 0px;
+    font-family: 'Open Sans' ;
+}
+
+.topbar{
+    background-color: #030F4F;
+    border:1px solid rgb(0, 1, 8);
+}
+
+.text-color{
+    color: #f49f1c;
+}
+
+.info > *{
+    margin:20px
+}
+
+.profile-box{
+    margin:150px auto;
+}
+
+.contact-icons{
+    width: 50px;
+    margin: 10px;
+}
+
+.contact-icons:hover{
+    box-shadow: 0.2px 0.2px 4px rgb(66, 128, 228);
+}
+
+.tech-stack{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.tech-stack > img{
+    width: 70px;
+    margin:auto 30px;
+}
+
+.proficiency-back{
+    background-color: rgb(17, 28, 92);
+    padding: 20px;
+}
+
+.statistics{
+    width: 170px;
+    height: 170px;
+    padding: 50px 30px;
+    font-size: 40px;
+    border: 7px solid #f49f1c;
+    border-radius: 50%;
+}
+
+/* .statistics > span{
+    color: #f49f1c;
+} */
+
+.icons{
+    margin-right: 15px;
+    width: 30px;
+}
+
+.projects{
+    background-color: rgb(22, 35, 109);
+}
+
+.project-cards > div{
+    margin:20px;
+}
