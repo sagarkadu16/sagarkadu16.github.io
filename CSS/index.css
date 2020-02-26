@@ -3,19 +3,21 @@ html{
 }
 
 .box{
-    color: #f49f1c;
-    background-color: rgb(5, 17, 80);
+    color: #990011FF;
+    background-color: #FCF6F5FF;
     margin: 0px;
     font-family: 'Open Sans' ;
 }
 
 .topbar{
-    background-color: #030F4F;
-    border:1px solid rgb(0, 1, 8);
+    background-color: #FCF6F5FF;
+    border:1px solid #990011FF;
+    border-left: none;
+    border-right: none;
 }
 
 .text-color{
-    color: #f49f1c;
+    color: #990011FF;
 }
 
 .info > *{
@@ -48,8 +50,13 @@ html{
 }
 
 .proficiency-back{
-    background-color: rgb(17, 28, 92);
+    background-color: #FCF6F5FF;
     padding: 20px;
+}
+
+.proficiency-details{
+    width: 350px;
+    border:1px solid #990011FF;
 }
 
 .statistics{
@@ -57,7 +64,7 @@ html{
     height: 170px;
     padding: 50px 30px;
     font-size: 40px;
-    border: 7px solid #f49f1c;
+    border: 7px solid #990011FF;
     border-radius: 50%;
 }
 
@@ -71,7 +78,7 @@ html{
 }
 
 .projects{
-    background-color: rgb(22, 35, 109);
+    background-color: #FCF6F5FF;
 }
 
 .project-cards > div{
