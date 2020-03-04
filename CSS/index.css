@@ -30,11 +30,13 @@ html{
 
 .contact-icons{
     width: 50px;
-    margin: 10px;
+    margin:10px;
+    overflow: hidden;
+    transition: transform 0.5s ease;
 }
 
 .contact-icons:hover{
-    box-shadow: 0.2px 0.2px 4px rgb(66, 128, 228);
+    transform: scale(1.1);
 }
 
 .tech-stack{
@@ -83,4 +85,8 @@ html{
 
 .project-cards > div{
     margin:20px;
+}
+
+.tech-used{
+    width: 30px;
 }
