@@ -16,24 +16,23 @@
 />
 </head>
 <body class="box">
-    <nav class="navbar p-3 navbar-expand-lg sticky-top topbar">
+    <nav class="navbar p-3 navbar-expand-lg sticky-top nav-fix topbar">
         <div class="container">
             <a class="navbar-brand text-color font-weight-bold" href="#about"> < Sagar Kadu />  </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navar-nav" aria-controls="navar-nav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
               <ul class="navbar-nav ml-auto">
-               
-                <li class="nav-item">
-                    <a class="nav-link text-color font-weight-bold" href="#about"> < About />  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link text-color font-weight-bold" href="#proficiency"> < Proficiency /> </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link text-color font-weight-bold" href="#projects"> < Projects /> </a>
-               </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-color font-weight-bold" href="#proficiency"> < Proficiency /> </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link text-color font-weight-bold" href="#projects"> < Projects /> </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-color font-weight-bold" href="#about"> < Achievements />  </a>
+                    </li>
               </ul>
             </div>  
         </div>
@@ -41,13 +40,13 @@
     <div class="container d-flex profile-box"  id='about'>
         <div class="row">
             <div class="col-lg-4 col-md-6 col-sm-12 w-50">
-                <img src="./IMG_20191022_151319.jpg" class="img-fluid rounded-circle">
+                <img src="./IMG_20191022_151319.jpg" style="margin-top: -70px;" class="img-fluid rounded-circle">
             </div>
-            <div class="col-lg-8 col-md-6 col-sm-12 p-4 text-align-left info" style="margin-top: -15px;">
-                <h1>SAGAR KADU</h1>
+            <div class="col-lg-8 col-md-6 col-sm-12 p-4 text-align-left info" style="margin-top: -100px;">
+                <h1>Sagar Kadu</h1>
                 <h3>Full Stack Developer</h3>
                 <div>
-                    <h5 class="my-2"><img class="icons" src="./logos/iconfinder_phone_326545.png" >+91 8087440193</h5 >
+                    <h5 class="my-2"><img class="icons" src="./logos/iconfinder_phone_326545.png" style="width: 25px;" >+91 8087440193</h5 >
                     <h5 class="my-2"><img class="icons" src="./logos/iconfinder_gmail_1220340.png">sagarkadu17@gmail .com</h5>
                     <h5 class="my-2"><img class="icons" src='./logos/iconfinder_location_115718.png'>Banglore,India</h5>
                 </div>
@@ -70,11 +69,11 @@
             <div class="d-flex flex-wrap justify-content-around m-2">
                 <div class="p-2 m-1 text-center proficiency-details rounded">
                     <h5>FRONTEND ENGINEERING</h3>
-                    <p>Able To Develop Responsive Websites <br/>  Using CSS, JS and React</p>
+                    <p>I can build the frontend using <br/> HTMl, CSS, Bootstrap, Javascript, React & Redux. </p>
                 </div>
                 <div class="p-2 m-1 text-center proficiency-details rounded">
                     <h5>BACKEND ENGINEERING</h5>
-                    <p>Able to Build Backend Using <br/> MySQL DB and python</p>
+                    <p>Using Python with Flask and mysql <br/> for database I can design backend.</p>
                 </div>
                 <div class="p-2 m-1 text-center proficiency-details rounded">
                     <h5>DATA STRUCTURE AND <br/> ALGORITHMS</h5>
@@ -192,6 +191,7 @@
                         <h3 class="card-title text-center mt-2">BlogPost</h3>
                         <p class="card-text text-center">A simple 'Blog Application' with JWT-User-Authentication where user can manage blogs and read from feed list</p>
                         <div class="d-flex justify-content-center">
+                            <img src="./logos/bootstrap.svg" class="mx-1 tech-used"/>
                             <img src="./logos/javascript.svg" class="mx-1 tech-used"/>
                             <img src="./logos/react.svg" class="mx-1 tech-used"/>
                             <img src="./logos/redux.svg" class="mx-1 tech-used"/>
@@ -208,20 +208,25 @@
                     </div>
                 </div>
                 <div class="card my-2" style="border: 0.5px solid #990011FF;">
-                    <img src="./images/todo.png"  class="card-img-top p-2" alt="uberclone">
+                    <img src="./images/tasklist.png"  class="card-img-top p-2" alt="uberclone">
                     <div class="card-body">
-                        <h3 class="card-title text-center mt-2">React Todo</h3>
-                        <p class="card-text text-center">Built Simple Responsive 'What Todo ?' Application, Where User can create,edit,update & delete todo's. User can also mark and toggle between completed and not completed</p>
+                        <h3 class="card-title text-center mt-2">TaskList Manager</h3>
+                        <p class="card-text text-center">TaskList Manager is single page responsive app where multiple user can maintain list with multiple task associated with each list.</p>
                         <div class="d-flex justify-content-center">
-                            <img src="./logos/html-5.svg" class="mx-1 tech-used"/>
-                            <img src="./logos/css-3.svg" class="mx-1 tech-used"/>
+                            <img src="./logos/bootstrap.svg" class="mx-1 tech-used"/>
                             <img src="./logos/javascript.svg" class="mx-1 tech-used"/>
+                            <img src="./logos/react.svg" class="mx-1 tech-used"/>
+                            <img src="./logos/redux.svg" class="mx-1 tech-used"/>
+                            <img src="./logos/python.svg" class="mx-1 tech-used"/>
+                            <img src="./logos/flask.svg" class="mx-1 tech-used"/>
+                            <img src="./logos/mysql.svg" class="mx-1 tech-used"/>
                         </div>
                     </div>
                     <div class="card-footer">
-                        <p class="card-text text-center">
-                            <a target="_blank" href="https://github.com/masai-school/cohort_3/tree/master/submissions/sm_028_sagar/week_10/day_1"><button class="btn btn-danger py-3 px-4">View My Project</button></a>
-                        </p>
+                            <p class="card-text text-center">
+                                <a target="_blank" href="https://github.com/sagarkadu16/Tasklist"><button class="btn btn-danger py-2 px-3">Source Code</button></a>
+                                <!-- <a target="_blank" href="https://sagarkadu16.github.io/masai-sprint-3/"><button class="btn btn-danger py-2 px-3">Demo Link</button></a> -->
+                            </p>
                     </div>
                 </div>
             </div>
