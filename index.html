@@ -31,7 +31,7 @@
                         <a class="nav-link text-color font-weight-bold" href="#projects"> < Projects /> </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-color font-weight-bold" href="#about"> < Achievement />  </a>
+                        <a class="nav-link text-color font-weight-bold" href="#acheivement"> < Achievement />  </a>
                     </li>
               </ul>
             </div>  
@@ -97,24 +97,52 @@
         </div>
     <div class="container p-5 rounded" style="background-color: #FCF6F5FF; border:1px solid #990011FF;">
         <h3 class="text-center mb-4 font-weight-bold" style='color:#990011FF'>Tech Stack</h3>
-        <div class="d-flex flex-wrap justify-content-center tech-stack">
-            <img class="mx-3" src='./logos/html-5.svg'>
-            <img class="mx-3" src='./logos/css-3.svg'>
-            <img class="mx-3" src="./logos/javascript.svg">
-            <img class="mx-3" src="./logos/bootstrap.svg">
-            <img class="mx-3" src="./logos/react.svg">
-            <img class="mx-3" src="./logos/redux.svg">
-            <img class="mx-3" src="./logos/python.svg">
-            <img class="mx-3" src='./logos/flask.svg'>
-            <img class="mx-3" src="./logos/mysql.svg">
+        <div class="d-flex flex-wrap justify-content-center tech-stack" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+            <div class="mx-3 my-2">
+                <img src='./logos/html-5.svg'>
+            </div>
+            <div class="mx-3 my-2">
+                <img src='./logos/css-3.svg'>
+            </div>
+            <div class="mx-3 my-2">
+                <img class="mt-3" src="./logos/javascript.svg">
+            </div>
+            <div class="mx-3 my-2">
+                <img class="mt-3" src="./logos/bootstrap.svg">
+            </div>
+            <div class="mx-3 my-2">
+                <img class="mt-3" src="./logos/react.svg">
+            </div>
+            <div class="mx-3 my-2">
+                <img class="mt-3" src="./logos/redux.svg">
+            </div>
+            <div class="mx-3 my-2">
+                <img class="mt-3" src="./logos/python.svg">
+            </div>
+            <div class="mx-3 my-2">
+                <img src='./logos/flask.svg'>
+            </div>
+            <div class="mx-3 my-2">
+                <img class="mt-3" src="./logos/mysql.svg">
+            </div>
         </div>
         <h3 class="text-center mb-4 mt-4 font-weight-bold" style='color:#990011FF'>Tools</h3>
         <div class="d-flex flex-wrap justify-content-center tech-stack">
-            <img class="mx-4" src="./logos/slack-icon.svg" >
-            <img class="mx-4" src="./logos/visual-studio-code.svg" >
-            <img class="mx-4" src="./logos/git-icon.svg" >
-            <img class="mx-4" src="./logos/npm.svg" >
-            <img class="mx-4" src="./logos/postman.svg" >
+            <div class="mx-4 my-2">
+                <img src="./logos/slack-icon.svg" >
+            </div>
+            <div class="mx-4 my-2">
+                <img src="./logos/visual-studio-code.svg" >
+            </div>
+            <div class="mx-4 my-2">
+                <img src="./logos/git-icon.svg" >
+            </div>
+            <div class="mx-4 my-2">
+                <img class="mt-3" src="./logos/npm.svg" >
+            </div>
+            <div class="mx-4 my-2">
+                <img src="./logos/postman.svg" >
+            </div>
         </div>
     </div>
     
@@ -252,8 +280,24 @@
             </div>
 </div>
 
+    <div class="container my-5 p-4 rounded mx-auto" style="border: 0.5px solid #990011FF;" id='acheivement'>
+            <h3 class="text-center mb-4 mt-4 font-weight-bold" style='color:#990011FF'>Achievement</h3>
+            <div class="row">
+                <div class="col-lg-6 col-12 p-4">
+                    <img src="./logos/hackathon.png" class="img-fluid" class="hackathon">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <h4>Project Title: Being Responsible !</h4>
+                    <h5>Hackathon Winner (2nd Prize)</h5>
+                    <h5>Tech Stack: React-Redux, Mapbox-API, Firebase</h5>
+                    <p>Description: 'Being Responsible' is implemented with an idea to bridge gap between person and Authority. User is able to capture image of roadside garbage, pothole, etc and able to raise a ticket to responsible authority. Authority then able to track location of ticket using geolocation and can take adequate actions. </p>
+                    <a target="_blank" href="https://github.com/masai-course/hackathon-20-02-21-b-3/tree/master/goal-diggers-project"><button class="btn btn-danger py-2 px-3">Source Code</button></a>
+                </div>
+
+            </div>
+    </div>
+
     <div class="container">
-        
         <div class="d-flex mt-5 flex-wrap justify-content-around">
                 <div class="mx-1"> 
                     <div class="statistics">1200+</div>
@@ -273,7 +317,7 @@
                 </div>
             </div>
         </div>
-        <div class="container mt-5 rounded text-center">
+        <div class="container my-5 rounded text-center">
                 <h5>Git Commit Status</h5>
                 <div class="calendar bg-light">
                     Here is Git Status!!
