@@ -25,7 +25,7 @@ html{
 }
 
 .profile-box{
-    margin:100px auto;
+    margin:80px auto;
 }
 
 .contact-icons{
@@ -59,6 +59,12 @@ html{
 .proficiency-details{
     width: 350px;
     border:1px solid #990011FF;
+    transition: transform 0.5s ease;
+    
+}
+
+.proficiency-details:hover{
+    transform: scale(1.02);
 }
 
 .statistics{
@@ -89,4 +95,23 @@ html{
 
 .tech-used{
     width: 30px;
+}
+
+.profi-icon{
+    width:70px
+}
+
+.profile-image{
+    width: 300px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .profile-box{
+        margin:80px auto;
+    }
+
+    .profile-image{
+        width: 230px;
+    }
 }
